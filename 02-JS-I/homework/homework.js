@@ -4,10 +4,10 @@
 const nuevaString = "hola";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = "12";
+const nuevoNum = 3;
 
 // Crea una variable booleana:
-const nuevoBool = "false";
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -41,7 +41,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return y-x;
+  return x-y;
 }
 
 function multiplica(x, y) {
@@ -92,7 +92,7 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  return num > 50 ? true : flase; 
+  return num > 50 ? true : false; 
 
 }
 
@@ -174,11 +174,15 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
    if(numero >0){
 
-      return "El Numero es Positivo";
+      return "Es positivo";
    }
-   else{
+   else if(numero == 0){
 
-    return "Enumero Es negativo";
+    return false;
+   }
+
+   else{
+    return "Es negativo";
    }
 
 }
@@ -202,7 +206,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola"+" "+nombre;
+  return "Hola"+" "+nombre+"!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -216,6 +220,10 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
+
+
+  return lado*4;
+
 }
 
 
@@ -239,6 +247,40 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
+
+  switch(letra){  
+                case "a" :
+                return "Es vocal";
+                break;
+
+                case "e" :
+                return "Es vocal";
+                break;
+
+                case "i" :
+                return "Es vocal";
+                break;
+
+                case "o" :
+                return "Es vocal";
+                break;
+
+                case "u" :
+                return "Es vocal";
+                break;
+
+                default:
+                if(letra.length>1){
+                  return "Dato incorrecto";
+                }
+
+
+                
+
+
+
+  }
+
 }
 
 
