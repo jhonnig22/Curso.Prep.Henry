@@ -1,0 +1,38 @@
+1-las variables son como una cajita donde podes guardar algo, en la programcion puede ser un dato o un objeto,
+  En terminos mas tecnicos es un espacio en memoria y el nombre de la variable es una referencia al dato guardado.
+
+2- string es texto, es un tipo de dato llamado string donde puedes escribir palabras pero debe hacerce entre
+   comillas por ejemplo: "hola soy un tipo de dato string" 
+
+3- las funciones son bloques de codigo que resuelven algo, en la programacion son importante, lo bueno de 
+   las funciones las puedes reutilizar varias veces cuantas veces quieras con tan solo llamar a ala funcion. la forma de escribir una funcion es asi se debe escribir la palabra function para que el editor sepa que vas a escribir una funcion esta esta es una de las formas.
+
+   function nombreDeLaLaFuncion(parametros, otroParametro){
+   			  //aca se escribe codigo que resuelve algo
+
+
+   			  return algo; => esto retorna un dato resulto en la funcion		
+
+   }      
+
+   una funcion por si sola sin la palabra return no retorna nada, una funcion puede tener o no argumentos, si tiene arguntos es por donde le vamos a pasar los datos
+
+4- la declaracion if sirve para controlar algo, se usa para evaluar una pregunta por decirlo asi, si lo que preguntas es verdadero el programa realiza algo y si es falso realiza otra cosa
+
+
+5- los valores booleanos solo son 2 verdadeo o falso, estos valores son el resulado de resolver algo de comparacion o pregunta estos valores son utilizados con if y otras estructuras de control 
+
+por ejemplo: una persona es mayor de edad cuando cumple los 18 años 
+
+             yo tengo 28 años. entonces te pregunto yo soy mayor de edad? tu respuesta seguramente es un si, esa afirmacion en programacion seria verdadero un valor booleano que es true caso contrario seria false 
+
+             en programcion seria algo asi 
+
+             let miEdad = 28;
+
+             if(miEdad >=18){ // en esta linea pregunto si mi edad es mayor o igual a 18 ? esto 
+                                 es verdadero / true por que mi edad es mayor a 18 caso contrario seria falso/false
+
+   				
+
+             }
